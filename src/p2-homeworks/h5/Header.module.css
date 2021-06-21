@@ -5,19 +5,18 @@
 
 .navlink {
     margin-left: 10px;
-    color: black;
 }
 .navlink a {
     text-decoration: none;
-    color: rgb(206, 121, 121);
+    color: black;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 }
 
 .navlink a:hover {
-    color: gold;
+    color: rgb(100, 52, 233);
 }
 
 .navlink a.active {
-    color: gold;
+    color: rgb(100, 52, 233);
 }

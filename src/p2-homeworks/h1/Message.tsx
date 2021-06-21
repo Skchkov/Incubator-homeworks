@@ -1,11 +1,26 @@
-import React from 'react'
+import React from "react";
+import m from "./Message.module.css";
 
-function Message() {
-    return (
-        <div>
+type messageDataType = {
+  avatar: string;
+  name: string;
+  message: string;
+  time: string;
+};
 
-        </div>
-    )
+function Message(props: messageDataType) {
+  return (
+    <div className={m.bg}>
+      <div>
+        <img className={m.avatar} src={props.avatar} alt="img" />
+      </div>
+      <div className={m.message}>
+        <h1> {props.name} </h1>
+        <p> {props.message}</p>
+        <span> {props.time}</span>
+      </div>
+    </div>
+  );
 }
 
-export default Message
+export default Message;
