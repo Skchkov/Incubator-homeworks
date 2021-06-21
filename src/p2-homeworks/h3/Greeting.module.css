@@ -1,7 +1,28 @@
-.someClass {
-
+.error {
+  border: 1px solid red;
 }
 
-.error {
-    border: 1px solid red;
+.cntr {
+  display: flex;
+  justify-content: center;
+}
+
+.inp {
+  height: 42px;
+  border: 3px solid green;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.nmb {
+  text-align: center;
+  font-size: 30px;
+  border: 3px solid goldenrod;
+  width: 40px;
 }

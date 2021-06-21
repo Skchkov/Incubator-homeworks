@@ -1,0 +1,23 @@
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navlink {
+    margin-left: 10px;
+    color: black;
+}
+.navlink a {
+    text-decoration: none;
+    color: rgb(206, 121, 121);
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.navlink a:hover {
+    color: gold;
+}
+
+.navlink a.active {
+    color: gold;
+}
